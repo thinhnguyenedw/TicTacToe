@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HuongDan"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Hướng dẫn"
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="➡️ Với chế độ 3x3, mỗi khi có 3 hàng X hoặc O dọc hoặc chéo thì X(hoặc O) win."
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="➡️ Với chế độ 5x5, mỗi khi có 3 hàng X hoặc O dọc hoặc chéo thì X(hoặc O) win."
+        android:textSize="20dp">
+
+    </TextView>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="➡️ Với chế độ 8x8, mỗi khi có 5 hàng X hoặc O dọc hoặc chéo thì X(hoặc O) win."
+        android:textSize="20dp">
+
+    </TextView>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="➡️ Mỗi khi win sẽ được ghi tỉ số trong mỗi màn chơi."
+        android:textSize="20dp">
+
+    </TextView>
+
+
+</LinearLayout>

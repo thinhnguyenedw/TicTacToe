@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tỉ số"
+        android:textColor="#FD0707"
+        android:textSize="30dp" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/txtiso5"
+        android:gravity="center"
+        />
+
+    <TableLayout
+        android:id="@+id/mainBoard5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:nestedScrollingEnabled="false"
+        android:padding="10dp">
+        <TableRow
+            android:id="@+id/row0"
+            style="@style/TableRowx5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/LeftCell2"
+                android:width="80dp"
+                android:layout_column="0"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="1"></TextView>
+
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="2"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="3"></TextView>
+
+            <TextView
+                style="@style/RightCell2"
+                android:width="80dp"
+                android:layout_column="4"></TextView>
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row1"
+            style="@style/TableRowx5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/LeftCell2"
+                android:width="80dp"
+                android:layout_column="0"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="1"></TextView>
+
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="2"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="3"></TextView>
+
+            <TextView
+                style="@style/RightCell2"
+                android:width="80dp"
+                android:layout_column="4"></TextView>
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            style="@style/TableRowx5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/LeftCell2"
+                android:width="80dp"
+                android:layout_column="0"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="1"></TextView>
+
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="2"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="3"></TextView>
+
+            <TextView
+                style="@style/RightCell2"
+                android:width="80dp"
+                android:layout_column="4"></TextView>
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            style="@style/TableRowx5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/LeftCell2"
+                android:width="80dp"
+                android:layout_column="0"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="1"></TextView>
+
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="2"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="3"></TextView>
+
+            <TextView
+                style="@style/RightCell2"
+                android:width="80dp"
+                android:layout_column="4"></TextView>
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            style="@style/TableRowx5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/LeftCell2"
+                android:width="80dp"
+                android:layout_column="0"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="1"></TextView>
+
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="2"></TextView>
+
+            <TextView
+                style="@style/MiddleCell2"
+                android:width="80dp"
+                android:layout_column="3"></TextView>
+
+            <TextView
+                style="@style/RightCell2"
+                android:width="80dp"
+                android:layout_column="4"></TextView>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/turn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Turn:"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/reset5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="   Chơi lại   " />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <androidx.cardview.widget.CardView
+
+            app:cardCornerRadius="15dp"
+            android:id="@+id/btnunodo"
+            app:cardElevation="0dp"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            tools:ignore="TooManyViews">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/undo" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:textSize="10dp"
+            android:text="Thoát"
+            android:id="@+id/btn_back">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Game2Person</string>
+
+    <string name="size_of_board">3</string>
+    <string name="size_of_board4">5</string>
+    <string name="size_of_board5">8</string>
+    <string name="X">" X "</string>
+    <string name="O">" O "</string>
+    <string name="none">" "</string>
+
+
+</resources>
